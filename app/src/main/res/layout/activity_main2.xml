@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+
+
+        <Button
+            android:id="@+id/handheld"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Handheld View"
+            android:onClick="RunHandheld"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+
+
+        <Button
+            android:id="@+id/cardboard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Cardboard View"
+            android:onClick="RunCardboard"/>
+    </LinearLayout>
+
+
+</LinearLayout>
